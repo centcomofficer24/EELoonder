@@ -15,7 +15,7 @@ public sealed class ContentMagicAczProvider : IMagicAczProvider
     {
         _deps = deps;
     }
-
+// test
     public async Task Package(AssetPass pass, IPackageLogger logger, CancellationToken cancel)
     {
         var contentDir = DefaultMagicAczProvider.FindContentRootPath(_deps);
